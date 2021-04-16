@@ -26,6 +26,10 @@ export default function LinkCard({ link, refreshLinks }) {
             console.error('AHHH', error);
         }
     };
+
+    const modifyLink = ()=>{
+        console.log("modifyLink")
+    }
     return (
         <div className="card mb-3">
             <div className="card-header">{link.name}</div>
@@ -37,8 +41,12 @@ export default function LinkCard({ link, refreshLinks }) {
                 <button className="btn btn-warning mr-2" onClick={archiveLink}>
                     Archive
                 </button>
-                <button className="btn btn-danger" onClick={deleteLink}>
+                <button className="btn btn-danger mr-2" onClick={deleteLink}>
                     Delete
+                </button>
+
+                <button className="btn btn-info" onClick = {modifyLink}>
+                    Modify
                 </button>
             </div>
         </div>

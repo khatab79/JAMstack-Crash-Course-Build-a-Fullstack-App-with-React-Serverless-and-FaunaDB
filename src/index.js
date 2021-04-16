@@ -1,3 +1,9 @@
+// Im using this project for leanring purposes. Creadit: James Q Quick
+// Github Repo: https://github.com/jamesqquick/JAMstack-Crash-Course-Build-a-Fullstack-App-with-React-Serverless-and-FaunaDB
+// the following tutorial.
+// https://www.youtube.com/watch?v=73b1ZbmB96I
+
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
