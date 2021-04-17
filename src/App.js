@@ -22,6 +22,11 @@ function App() {
 
     return (
         <div className="container py-5">
+        
+        <h1 className="text-center mb-5">I have cloned this project to use it for leanring purposes. Creadit: James Q Quick
+                                   Github Repo: https://github.com/jamesqquick/JAMstack-Crash-Course-Build-a-Fullstack-App-with-React-Serverless-and-FaunaDB
+          </h1>
+        
             <h1 className="text-center mb-5">List O' Link</h1>
             <LinkForm refreshLinks={loadLinks} />
             <LinkList links={links} refreshLinks={loadLinks} />
