@@ -1,3 +1,7 @@
+## I have cloned this project to use it for leanring purposes. Creadit: James Q Quick
+## Github Repo: https://github.com/jamesqquick/JAMstack-Crash-Course-Build-a-Fullstack-App-with-React-Serverless-and-FaunaDB
+
+
 # JAMstack Crash Course - Build a Fullstack App with React, Serverless, and FaunaDB
 
 This is the source code for the [JAMstack Crash Course video on
